@@ -1,0 +1,4 @@
+1,199010190214,$2y$10$UOoy82eQghHDq2ceIWum4uqU6NHDS1uoX95ZhrlFHVgzpjohWY4aS,Tomas,Pettersson,1
+4,198905190000,$2y$10$HOgwdTUbwS3FHLD5TzlpGOSsgkCSWOPrO6cXRxiZazhIjoiZQTrmK,Andreas,Wekman,3
+5,198005050000,$2y$10$I7EKZig8M2X5cWQkfYe.oeapgjJZYmbhBdol1DlLOgzQPRb49b/x.,Kalle,Sandin,3
+10,190011225566,$2y$10$CDnaAvzHvC6a8vIkuelUL.kEq.j3e41kKovCFovygvbnmN.a3WXwS,Pasha,Bicepz,2
