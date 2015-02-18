@@ -66,6 +66,13 @@ h1 {
   border-top: 10px solid #f2b26a;
   margin: 105px 0 60px;
 }
+.content2 {
+  color: white;
+  background-color: #434a52;
+  padding: 18% 24%;
+  border-top: 10px solid #f2b26a;
+  margin: 105px 0 60px;
+}
 
 p {
     font-size: 20px;

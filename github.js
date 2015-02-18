@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $(".content").hover(
+  $(".content, .content2").hover(
     function(){
     $(this).addClass("active");
     },
@@ -23,5 +23,24 @@ $(document).ready(function(){
         scrollTop: $(".title").offset().top
     }, 2000);
 }); 
+    
+    $(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 400) {
+    $('.content').fadeIn();
+  } else {
+    $('.content').fadeOut();
+  }
+});
+    
+    $(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 1050) {
+    $('.content2').fadeIn();
+  } else {
+    $('.content2').fadeOut();
+  }
+});
+    
     
 });
