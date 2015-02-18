@@ -24,23 +24,15 @@ $(document).ready(function(){
     }, 2000);
 }); 
     
-    $(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 400) {
-    $('.content').fadeIn();
-  } else {
-    $('.content').fadeOut();
-  }
+    tiles = $(".content, .content2").fadeTo(0, 0);
+
+$(window).scroll(function(d,h) {
+    tiles.each(function(i) {
+        a = $(this).offset().top + $(this).height();
+        b = $(window).scrollTop() + $(window).height();
+        if (a < b) $(this).fadeTo(500,1);
+    });
 });
-    
-    $(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 1050) {
-    $('.content2').fadeIn();
-  } else {
-    $('.content2').fadeOut();
-  }
-});
-    
+
     
 });
