@@ -79,15 +79,13 @@ a {
 
 
 .active {
-    background-color:#757877;
+    background-color:#575757;
     transition: background-color 1.3s ease;
     border-radius: 20px;
 }
 
 .active2 {
-    background-color:#E1E6E4;
-    transition: background-color 1.5s ease;
-     border-radius: 3px;
+    font-size: 34px;
 }
 
 #button {
