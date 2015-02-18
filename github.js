@@ -18,6 +18,10 @@ $(document).ready(function(){
     }
   );
     
-    
+    $("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".title").offset().top
+    }, 2000);
+});
     
 });
