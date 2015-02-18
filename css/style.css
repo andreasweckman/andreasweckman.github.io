@@ -90,24 +90,19 @@ a {
      border-radius: 3px;
 }
 
-#button{
-		background: #ECECEC;
-		border-radius: 5px;
-		padding: 10px 10px;
-		display: block;
-		font-family: sans-serif;
-		font-weight: bold;
-		color:#7f7f7f;
-		text-decoration: none;
-		text-shadow:0px 1px 0px #fff;
-		width: 130px;
-		margin:auto;
-		margin-top:80px;
-		box-shadow: 0px 2px 1px white inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
-		-webkit-transition:box-shadow 0.5s;
-	}
-	
-	#button:active{
-		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5) inset, 0px -2px 20px white, 0px 1px 5px rgba(0, 0, 0, 0.1), 0px 2px 10px rgba(0, 0, 0, 0.1);
-		background:-webkit-linear-gradient(top, #d1d1d1 0%,#ECECEC 100%);
-	}
+#button {
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border-bottom-color:#333;
+	border:1px solid #757877;
+	background-color:#757877;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#fff;
+	font-family:'Verdana';
+	font-size:14px;
+	text-shadow:#fff 0 1px 0;
+	padding:5px
+}
