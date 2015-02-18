@@ -75,3 +75,16 @@ a {
     text-decoration: none;
     color: green;
 }
+
+
+.active {
+    background-color:#757877;
+    transition: background-color 1.3s ease;
+    border-radius: 20px;
+}
+
+.active2 {
+    background-color:#E1E6E4;
+    transition: background-color 1.5s ease;
+     border-radius: 3px;
+}
