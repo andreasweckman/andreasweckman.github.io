@@ -22,16 +22,6 @@ $(document).ready(function(){
     $('html, body').animate({
         scrollTop: $(".title").offset().top
     }, 2000);
-});
-   
-    $(window).scroll(function(){
-    if ($(this).scrollTop() > 250) {
-        $('.content').slideDown('slow');
-    } else {
-        $('.content').slideUp('slow');
-    }
-});
-    
-    
+}); 
     
 });
