@@ -97,6 +97,7 @@ a {
     transition: background-color 1.3s ease;
     border-radius: 20px;
     color: #B3B3B3;
+    border-top: 10px solid #434a52;
 }
 
 .active2 {
@@ -118,4 +119,41 @@ a {
 	font-size:14px;
 	text-shadow:#fff 0 1px 0;
 	padding:5px
+}
+
+/* FOLLOWING CODE FOR RESPONSIVITY */
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+       }
+    
+    .title {
+        font-size: 20px;
+    }
+  
+    
+    
+}
+
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 30px;
+       }
+    .title {
+        font-size: 20px;
+    }
+ 
+    
+}
+
+
+@media (max-width: 450px) {
+     h1 {
+        font-size: 15px;
+       }
+     .title {
+        font-size: 10px;
+    }
 }
