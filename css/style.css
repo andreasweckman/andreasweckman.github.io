@@ -9,7 +9,7 @@ body {
 }
 
 .main-head {
-    background-color: #ffa949;
+    background-color: #000;
     height: 980px;
     background-image: url('../images/bear.jpg');
     background-size: cover;
@@ -17,7 +17,8 @@ body {
     text-align: center;
 }
 
-h1 {  
+h1 {
+    display: none;
     margin-top: 100px;
     font-size: 5.625rem; /* 90px/16px  */
     color: rgba(255, 255, 255, 1);
@@ -27,6 +28,7 @@ h1 {
 }
 
 .arrow {
+    display: none;
     width: 80px;
     margin-top: 300px;
 }
@@ -37,6 +39,7 @@ h1 {
 }
 
 .title {
+    display: none;
     color: white;
     font-size: 1.625rem; /* 26px/16px */
 }
