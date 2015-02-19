@@ -34,6 +34,14 @@ $(document).ready(function(){
     }, 2000);
 }); 
     
+// ------------------- CODE BELOW: SCROLL DOWN WITH ARROW -------------------------    
+    
+    $(".arrow").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".intro").offset().top
+    }, 2000);
+}); 
+    
     
 // ------------------- CODE BELOW: SHOW WHEN SCROLLING -------------------------
     

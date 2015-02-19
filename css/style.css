@@ -68,6 +68,8 @@ h1 {
   padding: 18% 24%;
   border-top: 10px solid #f2b26a;
   margin: 105px 0 60px;
+  transition: background-color 1.3s ease;
+  border-radius: 20px;
 }
 .content2 {
   color: white;
@@ -75,6 +77,8 @@ h1 {
   padding: 18% 24%;
   border-top: 10px solid #f2b26a;
   margin: 105px 0 60px;
+  transition: background-color 1.3s ease;
+  border-radius: 20px;
 }
 
 p {
@@ -89,9 +93,10 @@ a {
 
 
 .active {
-    background-color:#575757;
+    background-color:#E8E8E8;
     transition: background-color 1.3s ease;
     border-radius: 20px;
+    color: #B3B3B3;
 }
 
 .active2 {
