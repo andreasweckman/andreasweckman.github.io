@@ -11,7 +11,7 @@ body {
 .main-head {
     background-color: #000;
     height: 980px;
-    background-image: url('../images/bear.jpg');
+    background-image: url('../images/bear.gif');
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
