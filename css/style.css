@@ -101,7 +101,8 @@ a {
 }
 
 .active2 {
-    font-size: 34px;
+    opacity: 0.5;
+    transition: background-color 1.3s ease;
 }
 
 #button {
@@ -119,6 +120,10 @@ a {
 	font-size:14px;
 	text-shadow:#fff 0 1px 0;
 	padding:5px
+}
+
+.copy {
+    font-size: 1em;
 }
 
 /* FOLLOWING CODE FOR RESPONSIVITY */
@@ -152,8 +157,22 @@ a {
 @media (max-width: 450px) {
      h1 {
         font-size: 15px;
+        color: grey;
        }
      .title {
         font-size: 10px;
+    }
+    .main-head {
+    background-color: #000;
+    height: 980px;
+    background-image: url('../images/photo-1418065460487-3e41a6c84dc5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    }
+    .title {
+    display: none;
+    color: grey;
+    font-size: 1.625rem; /* 26px/16px */
     }
 }
