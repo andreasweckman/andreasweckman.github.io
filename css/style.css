@@ -185,11 +185,31 @@ a {
     }
     
     p {
-    font-size: 12px;
+        font-size: 12px;
     }
     a {
-    text-decoration: none;
-    color: green;
-    font-size: 12px;
+        text-decoration: none;
+        color: green;
+        font-size: 12px;
     }
+    
+    .content {
+      color: white;
+      background-color: #434a52;
+      padding: 5% 9%;
+      border-top: 10px solid #f2b26a;
+      margin: 105px 0 60px;
+      transition: background-color 1.3s ease;
+      border-radius: 20px;
+    }
+        .content2 {
+      color: white;
+      background-color: #434a52;
+      padding: 5% 9%;
+      border-top: 10px solid #f2b26a;
+      margin: 105px 0 60px;
+      transition: background-color 1.3s ease;
+      border-radius: 20px;
+    }
+
 }
