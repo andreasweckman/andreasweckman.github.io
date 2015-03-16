@@ -1,10 +1,15 @@
 $(document).ready(function(){
+    
+// ------------------- CODE BELOW: SET SCROLLSPEED ---------------
+    
 
+    
 // --------------------- CODE BELOW: FADE IN TEXT --------------------------
- 
+    $(".scroll").fadeIn(7000).removeClass("hidden");
     $("h1").fadeIn(6000).removeClass("hidden");
     $(".title").fadeIn(3000).removeClass("hidden");
-    $(".arrow").fadeIn(5000).removeClass("hidden");
+    $(".arrow").fadeIn(7000).removeClass("hidden");
+    
     
 // ------------------- CODE BELOW: HOVER DIVS -------------------------    
     
