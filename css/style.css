@@ -125,6 +125,7 @@ h1 {
 .arrow {
     display: none;
     width: 80px;
+    cursor: pointer;
 }
 
 .intro {
@@ -227,13 +228,34 @@ a {
 @media (max-width: 800px) {
     h1 {
         font-size: 30px;
+        color: grey;
        }
     
     .title {
         font-size: 20px;
     }
   
+    .main-head {
+    background-color: #000;
+    height: 800px;
+    background-image: url('../images/photo-1418065460487-3e41a6c84dc5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    }
     
+    .title {
+    display: none;
+    color: grey;
+    font-size: 1.625rem; /* 26px/16px */
+    }
+        
+    .scroll {
+    margin-top: 300px;
+    font-size: 15px;
+    display: none;
+    color: white;
+}
     
 }
 
@@ -241,16 +263,32 @@ a {
 @media (max-width: 650px) {
     h1 {
         font-size: 30px;
+        color: grey;
        }
     .title {
         font-size: 20px;
     }
     
     .scroll {
-    margin-top: 140px;
+    margin-top: 240px;
     font-size: 15px;
     display: none;
+    color: white;
 }
+    .main-head {
+    background-color: #000;
+    height: 800px;
+    background-image: url('../images/photo-1418065460487-3e41a6c84dc5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    }
+    
+    .title {
+    display: none;
+    color: grey;
+    font-size: 1.625rem; /* 26px/16px */
+    }
     
     
 }
@@ -262,6 +300,7 @@ a {
     margin-top: 140px;
     font-size: 15px;
     display: none;
+    color: white;
 }
     
     h1 {
