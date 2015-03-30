@@ -21,6 +21,7 @@ $(document).ready(function(){
     $(this).removeClass("active");  
     }
   );
+    
 
       $("a").hover(
     function(){
