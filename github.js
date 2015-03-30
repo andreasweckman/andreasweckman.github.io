@@ -34,7 +34,7 @@ $(document).ready(function(){
     
 // ------------------- CODE BELOW: SCROLL TO TOP -------------------------    
     
-    $("#button").click(function() {
+    $(".arrowUP").click(function() {
     $('html, body').animate({
         scrollTop: $(".title").offset().top
     }, 2000);

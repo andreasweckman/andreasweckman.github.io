@@ -130,6 +130,10 @@ h1 {
     width: 80px;
     cursor: pointer;
 }
+.arrowUP {
+    text-align: center;
+    cursor: pointer;
+}
 
 .intro {
   font-size: 1.25em; /* 20px/16px */
@@ -169,7 +173,7 @@ h1 {
 .content2 {
   background-color: #434a52;
   padding: 6% 8%;
-  margin: 105px 0 60px;
+  margin: 200px 0 50px;
   transition: background-color 1.3s ease;
   color: white;
 }
