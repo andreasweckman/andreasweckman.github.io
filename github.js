@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
     
 // ------------------- CODE BELOW: SET SCROLLSPEED ---------------
     
@@ -70,6 +70,16 @@ $(window).scroll(function(d,h) {
         b = $(window).scrollTop() + $(window).height();
         if (a < b) $(this).fadeTo(1500,1);
     });
+});
+
+// ------------------- CODE BELOW: SHOW CONTACT ON CLICK -------------------------
+    
+$("#fadeins").click(function(){
+    $("#div1").fadeIn("slow").removeClass("hidden");
+});
+ 
+$("#fadeins2").click(function(){
+    $("#div2").fadeIn("slow").removeClass("hidden");
 });
     
 });

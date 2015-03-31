@@ -17,6 +17,20 @@
 	-webkit-animation-timing-function: linear;
 }
 
+   #div1, #div2 {
+        display: none;
+        color: white;
+    }
+
+   #fadeins, #fadeins2 {
+       cursor: pointer;
+   }
+
+   #mailIcon {
+       margin-right: 10px;
+   }
+
+
 /* SLIDE IN CODE */
     
 
@@ -92,6 +106,12 @@
   
 /* SLIDE IN CODE */
 
+#background {
+    background-image: url(../images/photo-1418065460487-3e41a6c84dc5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .scroll {
     margin-top: 300px;
     font-size: 15px;
@@ -148,7 +168,6 @@ h1 {
 
 .first-content {
     padding-top: 25px;
-    padding-bottom: 95px;
     text-align: center;
     width: 100%;
     margin: auto;
@@ -159,6 +178,7 @@ h1 {
   padding-bottom: 60px;
   border-bottom: 10px solid #434a52;
   text-align: center;
+  margin: 0px;
 }
 
 
@@ -173,7 +193,7 @@ h1 {
 .content2 {
   background-color: #434a52;
   padding: 6% 8%;
-  margin: 200px 0 50px;
+  margin: 200px 0 0px;
   transition: background-color 1.3s ease;
   color: white;
 }
