@@ -245,6 +245,13 @@ a {
 /* FOLLOWING CODE FOR RESPONSIVITY */
 
 @media (max-width: 800px) {
+    
+      #background {
+    background-image: url("");
+    background-attachment: fixed;
+    background-position: center;
+}
+    
     h1 {
         font-size: 30px;
         color: grey;
@@ -324,6 +331,13 @@ a {
 
 
 @media (max-width: 650px) {
+    
+    #background {
+    background-image: url("");
+    background-attachment: fixed;
+    background-position: center;
+}
+    
     h1 {
         font-size: 30px;
         color: grey;
@@ -401,6 +415,12 @@ a {
 
 
 @media (max-width: 450px) {
+    
+  #background {
+    background-image: url("");
+    background-attachment: fixed;
+    background-position: center;
+}
     
     .scroll {
     margin-top: 140px;
