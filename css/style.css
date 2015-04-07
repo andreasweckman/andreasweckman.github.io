@@ -244,13 +244,17 @@ a {
 
 /* FOLLOWING CODE FOR RESPONSIVITY */
 
+
+
 @media (max-width: 800px) {
-    
-      #background {
+       #background {
     background-image: url("");
     background-attachment: fixed;
     background-position: center;
 }
+       #div1, #div2 {
+        color: grey;
+    }
     
     h1 {
         font-size: 30px;
@@ -331,6 +335,11 @@ a {
 
 
 @media (max-width: 650px) {
+    
+     #div1, #div2 {
+        color: grey;
+    }
+    
     
     #background {
     background-image: url("");
@@ -416,7 +425,11 @@ a {
 
 @media (max-width: 450px) {
     
-  #background {
+    #div1, #div2 {
+        color: grey;
+    }
+    
+      #background {
     background-image: url("");
     background-attachment: fixed;
     background-position: center;
@@ -426,7 +439,7 @@ a {
     margin-top: 140px;
     font-size: 15px;
     display: none;
-    color: grey;
+    color: white;
 }
     
     h1 {
