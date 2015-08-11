@@ -1,7 +1,4 @@
 $(document).ready(function() {
-    
-// ------------------- CODE BELOW: SET SCROLLSPEED ---------------
-    
 
     
 // --------------------- CODE BELOW: FADE IN TEXT --------------------------
